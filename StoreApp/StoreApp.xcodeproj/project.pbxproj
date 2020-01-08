@@ -15,6 +15,7 @@
 		F1515FCF23C4F7210077CE47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1515FCD23C4F7210077CE47 /* LaunchScreen.storyboard */; };
 		F1515FDA23C4F7210077CE47 /* StoreAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1515FD923C4F7210077CE47 /* StoreAppTests.swift */; };
 		F1515FE523C4F7210077CE47 /* StoreAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1515FE423C4F7210077CE47 /* StoreAppUITests.swift */; };
+		F151602F23C64CA50077CE47 /* AppDownloadedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F151602E23C64CA50077CE47 /* AppDownloadedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F1515FE023C4F7210077CE47 /* StoreAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoreAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1515FE423C4F7210077CE47 /* StoreAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreAppUITests.swift; sourceTree = "<group>"; };
 		F1515FE623C4F7210077CE47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F151602E23C64CA50077CE47 /* AppDownloadedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDownloadedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				F1515FC223C4F71F0077CE47 /* AppDelegate.swift */,
 				F1515FC423C4F71F0077CE47 /* SceneDelegate.swift */,
 				F1515FC623C4F71F0077CE47 /* ContentView.swift */,
+				F151602E23C64CA50077CE47 /* AppDownloadedButton.swift */,
 				F1515FC823C4F7210077CE47 /* Assets.xcassets */,
 				F1515FCD23C4F7210077CE47 /* LaunchScreen.storyboard */,
 				F1515FD023C4F7210077CE47 /* Info.plist */,
@@ -269,6 +272,7 @@
 			files = (
 				F1515FC323C4F71F0077CE47 /* AppDelegate.swift in Sources */,
 				F1515FC523C4F71F0077CE47 /* SceneDelegate.swift in Sources */,
+				F151602F23C64CA50077CE47 /* AppDownloadedButton.swift in Sources */,
 				F1515FC723C4F71F0077CE47 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

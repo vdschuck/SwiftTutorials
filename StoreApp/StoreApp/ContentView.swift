@@ -9,11 +9,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var isAppDownloaded = false
+    
     var body: some View {
         VStack {
             
             HStack {
-                
                 Image("icon")
                     .resizable()
                     .frame(width: 150, height: 150, alignment: .center)
@@ -22,7 +24,6 @@ struct ContentView: View {
                 Spacer()
                 
                 VStack {
-                    
                     Text("Dig This")
                         .bold()
                         .font(.title)
@@ -35,21 +36,14 @@ struct ContentView: View {
                     Spacer()
                     
                     HStack {
+                        AppDownloadedButton(isAppDownloaded: $isAppDownloaded)
                         
-                        Button(action: { print("Download realizado!")} ) {
-                            Text("GET")
-                                .bold()
-                                .foregroundColor(.white)
-                                .frame(width: 60, height: 30, alignment: .center)
-                                .background(Color.blue)
-                                .cornerRadius(20)
+                        if !self.isAppDownloaded {
+                            Text("In-App Purchases")
+                                .foregroundColor(.gray)
+                                .font(.system(size: 10))
+                                .frame(width: 55, height: nil, alignment: .leading)
                         }
-                        
-                        Text("In-App Purchases")
-                            .foregroundColor(.gray)
-                            .font(.system(size: 10))
-                            .frame(width: 55, height: nil, alignment: .leading)
-                        
                         Spacer()
                         
                         Image(systemName: "square.and.arrow.up")
